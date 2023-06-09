@@ -58,10 +58,18 @@
 
         header {
             background-color: #f5f5f5;
-            padding: 10px 0;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+        }
+
+        header img {
+            max-height: 30px;
+            margin-right: 10px;
         }
 
         nav {
+            flex-grow: 1;
             text-align: center;
         }
 
@@ -89,6 +97,7 @@
 </head>
 <body>
     <header>
+        <img src="favicon.ico" alt="Favicon">
         <nav>
             <a href="index.php">Importance of Cybersecurity</a> |
             <a href="threatmodeling.php">Importance of Threat Modeling</a>
