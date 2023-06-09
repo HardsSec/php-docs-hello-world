@@ -19,8 +19,9 @@
 
         .sidebar {
             width: 200px;
-            position: sticky;
-            top: 60px; /* Adjust the top value to accommodate the header height */
+            position: fixed;
+            top: 0;
+            left: 0;
             background-color: #f5f5f5;
             padding: 20px;
         }
@@ -57,10 +58,18 @@
 
         header {
             background-color: #f5f5f5;
-            padding: 10px 0;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+        }
+
+        header img {
+            max-height: 30px;
+            margin-right: 10px;
         }
 
         nav {
+            flex-grow: 1;
             text-align: center;
         }
 
