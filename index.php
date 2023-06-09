@@ -37,7 +37,7 @@
         <h1>The Importance of Cybersecurity</h1>
 
         <div class="image-container">
-            <img src="cybersecurity_image1.jpg" alt="Cybersecurity Image 1">
+            <img src="cybersecurity1.png" alt="Cybersecurity Image 1">
         </div>
 
         <p>
@@ -45,7 +45,7 @@
         </p>
 
         <div class="image-container">
-            <img src="cybersecurity_image2.jpg" alt="Cybersecurity Image 2">
+            <img src="cybersecurity2.png" alt="Cybersecurity Image 2">
         </div>
 
         <p>
@@ -53,7 +53,7 @@
         </p>
 
         <div class="image-container">
-            <img src="cybersecurity_image3.jpg" alt="Cybersecurity Image 3">
+            <img src="cybersecurity3.png" alt="Cybersecurity Image 3">
         </div>
 
         <p>
