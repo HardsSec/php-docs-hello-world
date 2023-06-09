@@ -26,8 +26,8 @@
 
         .header img {
             margin-right: 10px; /* Added margin right */
-            heigh: auto;
-            width: auto;
+            heigh: 60px;
+            width: 200px;
         }
 
         nav {
