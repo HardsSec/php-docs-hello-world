@@ -2,7 +2,7 @@
 <html>
 <head>
     <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <title>Importance of Cybersecurity</title>
+    <title>Importance of Threat Modeling</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -17,29 +17,22 @@
             display: flex;
         }
 
-        .header {
-            background-color: #f5f5f5;
-            padding: 10px 0;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-
-        .header img {
-            max-height: 50px;
-            margin-left: 20px;
-        }
-
-        .header nav {
-            margin-right: 20px;
-        }
-
         .sidebar {
             width: 200px;
+            position: sticky; /* Updated position to sticky */
+            top: 0;
             background-color: #f5f5f5;
             padding: 20px;
-            margin-top: 20px;
-            position: sticky; /* Updated position to sticky */
+        }
+
+        .sidebar ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .sidebar li {
+            margin-bottom: 10px;
         }
 
         .content {
@@ -62,8 +55,12 @@
             margin: 20px 0;
         }
 
+        header {
+            background-color: #f5f5f5;
+            padding: 10px 0;
+        }
+
         nav {
-            flex-grow: 1;
             text-align: center;
         }
 
