@@ -72,7 +72,7 @@
     <div class="container">
         <h1>The Importance of Cybersecurity</h1>
 
-        <div class="image-container">
+        <div class="image-container fade-in">
             <img src="cybersecurity1.png" alt="Cybersecurity Image 1">
         </div>
 
