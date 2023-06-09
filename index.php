@@ -17,11 +17,35 @@
             display: flex;
         }
 
+        .header {
+            background-color: #f5f5f5;
+            padding: 10px 0;
+            display: flex; /* Added display flex */
+            align-items: center; /* Added align items center */
+        }
+
+        .header img {
+            margin-right: 10px; /* Added margin right */
+        }
+
+        nav {
+            text-align: center;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            margin: 0 10px;
+        }
+
+        nav a:hover {
+            color: #555;
+        }
+
         .sidebar {
             width: 200px;
-            position: fixed;
-            top: 0;
-            left: 0;
+            position: sticky;
+            top: 60px; /* Adjust the top value to accommodate the header height */
             background-color: #f5f5f5;
             padding: 20px;
         }
@@ -54,33 +78,6 @@
             max-width: 100%;
             height: auto;
             margin: 20px 0;
-        }
-
-        header {
-            background-color: #f5f5f5;
-            padding: 10px 20px;
-            display: flex;
-            align-items: center;
-        }
-
-        header img {
-            max-height: 30px;
-            margin-right: 10px;
-        }
-
-        nav {
-            flex-grow: 1;
-            text-align: center;
-        }
-
-        nav a {
-            text-decoration: none;
-            color: #333;
-            margin: 0 10px;
-        }
-
-        nav a:hover {
-            color: #555;
         }
 
         @keyframes fadeIn {
