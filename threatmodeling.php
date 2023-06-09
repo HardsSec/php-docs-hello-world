@@ -37,6 +37,28 @@
         nav a:hover {
             color: #555;
         }
+        
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        
+        ul li {
+            position: relative;
+            padding-left: 30px;
+            margin-bottom: 10px;
+        }
+        
+        ul li:before {
+            content: "";
+            position: absolute;
+            top: 6px;
+            left: 0;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background-color: #333;
+        }
     </style>
 </head>
 <body>
