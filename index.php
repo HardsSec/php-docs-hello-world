@@ -39,6 +39,7 @@
             background-color: #f5f5f5;
             padding: 20px;
             margin-top: 20px;
+            position: sticky; /* Updated position to sticky */
         }
 
         .content {
@@ -59,18 +60,6 @@
             max-width: 100%;
             height: auto;
             margin: 20px 0;
-        }
-
-        header {
-            background-color: #f5f5f5;
-            padding: 10px 20px;
-            display: flex;
-            align-items: center;
-        }
-
-        header img {
-            max-height: 30px;
-            margin-right: 10px;
         }
 
         nav {
