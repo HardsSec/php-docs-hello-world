@@ -17,23 +17,28 @@
             display: flex;
         }
 
+        .header {
+            background-color: #f5f5f5;
+            padding: 10px 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .header img {
+            max-height: 50px;
+            margin-left: 20px;
+        }
+
+        .header nav {
+            margin-right: 20px;
+        }
+
         .sidebar {
             width: 200px;
-            position: fixed;
-            top: 0;
-            left: 0;
             background-color: #f5f5f5;
             padding: 20px;
-        }
-
-        .sidebar ul {
-            list-style-type: none;
-            padding: 0;
-            margin: 0;
-        }
-
-        .sidebar li {
-            margin-bottom: 10px;
+            margin-top: 20px;
         }
 
         .content {
@@ -96,13 +101,13 @@
     </style>
 </head>
 <body>
-    <header>
+    <div class="header">
         <img src="favicon.ico" alt="Favicon">
         <nav>
             <a href="index.php">Importance of Cybersecurity</a> |
             <a href="threatmodeling.php">Importance of Threat Modeling</a>
         </nav>
-    </header>
+    </div>
     <div class="container">
         <div class="sidebar">
             <ul>
