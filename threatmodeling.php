@@ -115,7 +115,7 @@
             <h1>The Importance of Threat Modeling</h1>
 
             <div id="introduction" class="image-container fade-in">
-                <img src="threatmodeling1.png" alt="Threat Modeling Image 1">
+                <img src="images/threatmodelling1.png" alt="Threat Modeling Image 1">
             </div>
 
             <p>
@@ -123,7 +123,7 @@
             </p>
 
             <div id="threatmodeling" class="image-container fade-in">
-                <img src="threatmodeling2.png" alt="Threat Modeling Image 2">
+                <img src="images/threatmodelling2.png" alt="Threat Modeling Image 2">
             </div>
 
             <p>
