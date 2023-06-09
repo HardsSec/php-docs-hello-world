@@ -13,6 +13,30 @@
             width: 80%;
             margin: 0 auto;
             padding: 20px;
+            display: flex;
+        }
+
+        .sidebar {
+            width: 200px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: #f5f5f5;
+            padding: 20px;
+        }
+
+        .sidebar ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .sidebar li {
+            margin-bottom: 10px;
+        }
+
+        .content {
+            margin-left: 220px;
         }
 
         h1 {
@@ -30,31 +54,31 @@
             height: auto;
             margin: 20px 0;
         }
-        
+
         header {
             background-color: #f5f5f5;
             padding: 10px 0;
         }
-        
+
         nav {
             text-align: center;
         }
-        
+
         nav a {
             text-decoration: none;
             color: #333;
             margin: 0 10px;
         }
-        
+
         nav a:hover {
             color: #555;
         }
-        
+
         @keyframes fadeIn {
             from { opacity: 0; }
             to { opacity: 1; }
         }
-        
+
         .fade-in {
             opacity: 0;
             animation: fadeIn 1s ease-in-out;
@@ -70,32 +94,41 @@
         </nav>
     </header>
     <div class="container">
-        <h1>The Importance of Cybersecurity</h1>
-
-        <div class="image-container fade-in">
-            <img src="cybersecurity1.png" alt="Cybersecurity Image 1">
+        <div class="sidebar">
+            <ul>
+                <li><a href="#introduction">Introduction</a></li>
+                <li><a href="#cybersecurity">Cybersecurity</a></li>
+                <li><a href="#consequences">Consequences</a></li>
+            </ul>
         </div>
+        <div class="content">
+            <h1>The Importance of Cybersecurity</h1>
 
-        <p>
-            In today's interconnected world, cybersecurity has become more critical than ever. With the increasing number of cyber threats and data breaches, protecting sensitive information and maintaining the privacy and integrity of digital assets is of utmost importance.
-        </p>
+            <div id="introduction" class="image-container fade-in">
+                <img src="cybersecurity1.png" alt="Cybersecurity Image 1">
+            </div>
 
-        <div class="image-container fade-in">
-            <img src="cybersecurity2.png" alt="Cybersecurity Image 2">
+            <p>
+                In today's interconnected world, cybersecurity has become more critical than ever. With the increasing number of cyber threats and data breaches, protecting sensitive information and maintaining the privacy and integrity of digital assets is of utmost importance.
+            </p>
+
+            <div id="cybersecurity" class="image-container fade-in">
+                <img src="cybersecurity2.png" alt="Cybersecurity Image 2">
+            </div>
+
+            <p>
+                Cybersecurity involves implementing measures to prevent unauthorized access, misuse, and damage to computer systems, networks, and data. It encompasses various practices, such as strong password management, regular software updates, secure network configurations, and robust firewalls.
+            </p>
+
+            <div id="consequences" class="image-container fade-in">
+                <img src="cybersecurity3.png" alt="Cybersecurity Image 3">
+            </div>
+
+            <p>
+                The consequences of inadequate cybersecurity can be severe, including financial losses, reputational damage, legal issues, and compromised personal or business information. Cyber attacks can disrupt operations, lead to data loss, and even result in identity theft or fraud.
+                By prioritizing cybersecurity, individuals and organizations can safeguard their digital assets and mitigate potential risks. It is essential to stay updated on the latest threats, educate oneself and employees, and implement robust security measures to protect against cyber threats.
+            </p>
         </div>
-
-        <p>
-            Cybersecurity involves implementing measures to prevent unauthorized access, misuse, and damage to computer systems, networks, and data. It encompasses various practices, such as strong password management, regular software updates, secure network configurations, and robust firewalls.
-        </p>
-
-        <div class="image-container fade-in">
-            <img src="cybersecurity3.png" alt="Cybersecurity Image 3">
-        </div>
-
-        <p>
-            The consequences of inadequate cybersecurity can be severe, including financial losses, reputational damage, legal issues, and compromised personal or business information. Cyber attacks can disrupt operations, lead to data loss, and even result in identity theft or fraud.
-            By prioritizing cybersecurity, individuals and organizations can safeguard their digital assets and mitigate potential risks. It is essential to stay updated on the latest threats, educate oneself and employees, and implement robust security measures to protect against cyber threats.
-        </p>
     </div>
 
     <script>
