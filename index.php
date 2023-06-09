@@ -26,6 +26,8 @@
 
         .header img {
             margin-right: 10px; /* Added margin right */
+            heigh: 20px
+            width: 20px
         }
 
         nav {
