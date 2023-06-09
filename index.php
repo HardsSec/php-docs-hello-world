@@ -22,6 +22,7 @@
             position: fixed;
             top: 0;
             left: 0;
+            height: 100vh; /* Set the height to 100vh (100% of the viewport height) */
             background-color: #f5f5f5;
             padding: 20px;
         }
