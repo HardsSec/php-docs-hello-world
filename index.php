@@ -19,8 +19,8 @@
 
         .sidebar {
             width: 200px;
-            position: sticky; /* Updated position to sticky */
-            top: 0;
+            position: sticky;
+            top: 60px; /* Adjust the top value to accommodate the header height */
             background-color: #f5f5f5;
             padding: 20px;
         }
