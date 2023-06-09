@@ -30,12 +30,31 @@
             height: auto;
             margin: 20px 0;
         }
+        
+        header {
+            background-color: #f5f5f5;
+            padding: 10px 0;
+        }
+        
+        nav {
+            text-align: center;
+        }
+        
+        nav a {
+            text-decoration: none;
+            color: #333;
+            margin: 0 10px;
+        }
+        
+        nav a:hover {
+            color: #555;
+        }
     </style>
 </head>
 <body>
-        <header>
+    <header>
         <nav>
-            <a href="index.php">Importance of Cybersecurity<</a>
+            <a href="index.php">Importance of Cybersecurity</a> |
             <a href="threatmodeling.php">Importance of Threat Modeling</a>
         </nav>
     </header>
@@ -63,10 +82,9 @@
         </div>
 
         <p>
-            The consequences of inadequate cybersecurity can be severe, including financial losses, reputational damage, legal issues, and compromised personal or business information. Cyber attacks can disrupt operations, lead to data loss, and even result in identity theft or fraud
+            The consequences of inadequate cybersecurity can be severe, including financial losses, reputational damage, legal issues, and compromised personal or business information. Cyber attacks can disrupt operations, lead to data loss, and even result in identity theft or fraud.
             By prioritizing cybersecurity, individuals and organizations can safeguard their digital assets and mitigate potential risks. It is essential to stay updated on the latest threats, educate oneself and employees, and implement robust security measures to protect against cyber threats.
         </p>
     </div>
 </body>
 </html>
-
