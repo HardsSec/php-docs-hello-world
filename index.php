@@ -27,7 +27,7 @@
         .header img {
             margin-right: 10px; /* Added margin right */
             heigh: 60px;
-            width: 200px;
+            width: 60px;
         }
 
         nav {
