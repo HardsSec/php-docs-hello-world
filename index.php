@@ -17,37 +17,11 @@
             display: flex;
         }
 
-        .header {
-            background-color: #f5f5f5;
-            padding: 10px 0;
-            display: flex; /* Added display flex */
-            align-items: center; /* Added align items center */
-        }
-
-        .header img {
-            margin-right: 10px; /* Added margin right */
-            heigh: 60px;
-            width: 60px;
-        }
-
-        nav {
-            text-align: center;
-        }
-
-        nav a {
-            text-decoration: none;
-            color: #333;
-            margin: 0 10px;
-        }
-
-        nav a:hover {
-            color: #555;
-        }
-
         .sidebar {
             width: 200px;
-            position: sticky;
-            top: 60px; /* Adjust the top value to accommodate the header height */
+            position: fixed;
+            top: 0;
+            left: 0;
             background-color: #f5f5f5;
             padding: 20px;
         }
@@ -82,6 +56,33 @@
             margin: 20px 0;
         }
 
+        header {
+            background-color: #f5f5f5;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+        }
+
+        header img {
+            max-height: 30px;
+            margin-right: 10px;
+        }
+
+        nav {
+            flex-grow: 1;
+            text-align: center;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            margin: 0 10px;
+        }
+
+        nav a:hover {
+            color: #555;
+        }
+
         @keyframes fadeIn {
             from { opacity: 0; }
             to { opacity: 1; }
@@ -95,13 +96,13 @@
     </style>
 </head>
 <body>
-    <div class="header">
+    <header>
         <img src="favicon.ico" alt="Favicon">
         <nav>
             <a href="index.php">Importance of Cybersecurity</a> |
             <a href="threatmodeling.php">Importance of Threat Modeling</a>
         </nav>
-    </div>
+    </header>
     <div class="container">
         <div class="sidebar">
             <ul>
