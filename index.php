@@ -7,7 +7,6 @@
 </head>
 <body>
     <header>
-        <img src="favicon.ico" alt="Favicon">
         <nav>
             <a href="index.php">Importance of Cybersecurity</a> |
             <a href="threatmodeling.php">Importance of Threat Modeling</a>
