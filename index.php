@@ -25,7 +25,7 @@
             <h1>The Importance of Cybersecurity</h1>
 
             <div id="introduction" class="image-container fade-in">
-                <img src="cybersecurity1.png" alt="Cybersecurity Image 1">
+                <img src="images/cybersecurity1.png" alt="Cybersecurity Image 1">
             </div>
 
             <p>
@@ -33,7 +33,7 @@
             </p>
 
             <div id="cybersecurity" class="image-container fade-in">
-                <img src="cybersecurity2.png" alt="Cybersecurity Image 2">
+                <img src="images/cybersecurity2.png" alt="Cybersecurity Image 2">
             </div>
 
             <p>
@@ -41,7 +41,7 @@
             </p>
 
             <div id="consequences" class="image-container fade-in">
-                <img src="cybersecurity3.png" alt="Cybersecurity Image 3">
+                <img src="images/cybersecurity3.png" alt="Cybersecurity Image 3">
             </div>
 
             <p>
@@ -50,33 +50,32 @@
             </p>
         </div>
     </div>
-
     <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            var images = document.querySelectorAll(".fade-in");
+    document.addEventListener("DOMContentLoaded", function() {
+    var images = document.querySelectorAll(".fade-in");
 
-            function fadeInImages() {
-                images.forEach(function(image) {
-                    if (isElementInViewport(image)) {
-                        image.style.opacity = "1";
-                    }
-                });
+    function fadeInImages() {
+        images.forEach(function(image) {
+            if (isElementInViewport(image)) {
+                image.style.opacity = "1";
             }
-
-            function isElementInViewport(element) {
-                var rect = element.getBoundingClientRect();
-                return (
-                    rect.top >= 0 &&
-                    rect.left >= 0 &&
-                    rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
-                    rect.right <= (window.innerWidth || document.documentElement.clientWidth)
-                );
-            }
-
-            window.addEventListener("scroll", fadeInImages);
-            window.addEventListener("resize", fadeInImages);
-            fadeInImages();
         });
-    </script>
+    }
+
+    function isElementInViewport(element) {
+        var rect = element.getBoundingClientRect();
+        return (
+            rect.top >= 0 &&
+            rect.left >= 0 &&
+            rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+            rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+        );
+    }
+
+    window.addEventListener("scroll", fadeInImages);
+    window.addEventListener("resize", fadeInImages);
+    fadeInImages();
+});
+</script>
 </body>
 </html>
